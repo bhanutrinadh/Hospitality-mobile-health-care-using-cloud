@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hospitalitymobilehealth_care"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name=".DoctorProfileActivity"
+            android:label="@string/title_activity_docviewprofile" >
+        </activity>
+        <activity
+            android:name=".NurseProfileActivity"
+            android:label="@string/title_activity_nurseprofile" >
+        </activity>
+        <activity
+            android:name=".PatientprofileActivity"
+            android:label="@string/title_activity_patientprofile" >
+        </activity>
+        <activity
+            android:name=".PatientHealthActivity"
+            android:label="@string/title_activity_patentcheackup" >
+        </activity>
+        <activity
+            android:name=".MedicineActivity"
+            android:label="@string/title_activity_medicin" >
+        </activity>
+        <activity
+            android:name=".PatientViewHealthActivity"
+            android:label="@string/title_activity_viewmedicine" >
+        </activity>
+        <activity
+            android:name=".DoctorActivity"
+            android:label="@string/title_activity_doc" >
+        </activity>
+        <activity
+            android:name=".NurseActivity"
+            android:label="@string/title_activity_nur" >
+        </activity>
+        <activity
+            android:name=".PatientActivity"
+            android:label="@string/title_activity_pat" >
+        </activity>
+        <activity
+            android:name=".FlashActivity"
+            android:label="@string/title_activity_flash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name=".PatientsListActivity"
+            android:label="@string/title_activity_patients_list" >
+        </activity>
+    </application>
+
+</manifest>
